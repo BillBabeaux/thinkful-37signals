@@ -1,0 +1,317 @@
+/* TABLE OF CONTENTS */
+	/* Site-wide: Container */
+	/* Site-wide: General Typography */
+	/* Section: Nav styling */
+	/* Section: Product Pitch */
+	/* Section: Trust Builder */
+	/* Section: Product Description - thar be tables here */
+	/* Section: REWORK Book */
+	/* Section: Extras & Domes */
+	/* Section: Footer */
+
+
+
+/* Container */
+
+#container {
+	width: 100%;
+	margin: 0px auto;
+}
+
+#inner-body {
+	width: 820px;
+	margin: 10px auto;
+	padding-left: 35px;
+}
+
+
+
+/* General Typography */
+
+a {
+	text-decoration: none;
+	font-family: Lucida Grande;
+	font-size: 12px;
+	color: #369;
+}
+
+a:hover {
+	color: #6ab1e5;
+}
+
+p {
+	font-family: 'Lucida Grande';
+	font-size: 12px;
+	color: #99999c;
+}
+
+h1 {
+	font-size: 52px; 
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+	letter-spacing:-2px
+}
+
+h2 {
+	font-size: 20px; 
+	font-weight: 600;
+	color: #000000;
+	font-family: 'Crimson Text', serif;
+}
+
+h3 {
+	font-family: 'Lucida Grande';
+	font-weight: bold;
+	font-size: 20px;
+	color: #000000;
+}
+
+h3 a {
+	font-family: 'Lucida Grande';
+	font-weight: bold;
+	font-size: 20px;
+	color: #000000;
+}
+
+h4 {
+	font-family: 'Lucida Grande';
+	color: #cc0000;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 22px; 
+	font-weight: 600;
+	color: #000000;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+
+h5 a {
+	font-size: 22px; 
+	font-weight: 600;
+	color: #000000;
+	font-family: 'Crimson Text', serif;
+}
+
+
+
+h6 {
+	font-family: 'Lucida Grande';
+	font-size: 10px;
+	color: #99999c;
+}
+
+h6 a {
+	font-family: 'Lucida Grande';
+	font-size: 10px;
+	padding-left: 5px;
+}
+
+
+
+/* Nav styling */
+
+#nav {
+	margin: 10px 35px;
+	height: 50px;
+}
+
+#nav p {
+	float: left;
+	padding: 20px 0 20px 10px;
+}
+
+#nav ul {
+	float: right;
+	padding: 20px 0;
+}
+
+#nav li {
+	display: inline;
+	margin: 0px 20px 0px 0;
+}
+
+
+
+/* Product Pitch */
+
+.centered-image {
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+	padding: 25px 0;
+}
+
+
+
+/* Trust Builder */
+
+#product-pitch .centered img {
+	padding: 0 15px;
+}
+
+#negative-left {
+	margin: -120px 0 0 -200px;
+	float: left;
+}
+
+
+#trust-builder h2 {
+	font-size: 22px;
+	font-weight: 400;
+	color: #666;
+}
+
+#badge {
+	margin: 10px 0;
+}
+
+#badge img {
+	float: right;
+}
+
+#three-stars {
+	border: 0;
+	height: 30px;
+	background-image:url(http://37signals.com/images/img-hr.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	clear: both;
+}
+
+#three-stars-big {
+	border: 0;
+	height: 90px;
+	background-image:url(http://37signals.com/images/img-hr.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	clear: left;
+}
+
+
+
+/* Product Description - thar be tables here */
+
+tr {
+	width: 350px;
+}
+
+table {
+	margin-top: 30px;
+}
+
+tr, td {
+	width: 410px;
+	height: 80px;
+	padding-right: 10px;
+}
+
+tr td h1 {
+	float: left;
+	padding-right: 10px;
+	height: 80px;
+	width: 30px;
+	margin: 0px 5px 0 5px;
+	color: #cccccc;
+}
+
+tr td h4 {
+	margin: 10px 0 0 5px;
+	text-align: left;
+}
+
+tr td p {
+	margin: 10px 0 0 5px;
+	color: #000000;
+	padding-right: 25px;
+	text-align: left;
+}
+
+
+
+/* REWORK Book */
+
+#negative-right {
+	margin: -120px -150px 0 0;
+	float: right;
+}
+
+#rework-book h1 {
+	font-size: 50px;
+}
+
+#book-image {
+	float: left;
+}
+
+#quotes {
+	margin-top: 70px;
+	text-align: center;
+}
+
+#quotes h2 {
+	font-style: italic; 
+	font-size: 20px; 
+	font-weight: 600;
+	color: #888888;
+	font-family: 'Crimson Text', serif;
+	line-height: 26px;
+}
+
+#quotes p {
+	color: #000000;
+}
+
+
+/* Extras & Domes */
+
+#domes {
+	width: 590px;
+	height: 180px;
+	margin: 30px auto 0 auto;
+}
+
+#domes h4, p {
+	text-align: center;
+}
+
+.final-table {
+	width: 670px;
+	height: 400px;
+	margin: -20px auto 0 auto;
+}
+
+.final-table td tr p {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.final-table th {
+	vertical-align: bottom;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e8e8e8;
+	text-align: center;
+}
+
+.final-table tr td p {
+	margin: 10px 0 0 5px;
+	color: #000000;
+	padding-right: 25px;
+	text-align: center;
+}
+
+
+/* Footer */
+
+footer li {
+	margin: 15px 0;
+}
+
+footer h6 {
+	margin: 20px 0;
+	padding-top: 20px;
+}
